@@ -1,0 +1,14 @@
+# coral-user 12 SQ1A.220205.002 8010174 release-keys
+- manufacturer: google
+- platform: msmnile
+- codename: coral
+- flavor: coral-user
+- release: 12
+- id: SQ1A.220205.002
+- incremental: 8010174
+- tags: release-keys
+- fingerprint: google/coral/coral:12/SQ1A.220205.002/8010174:user/release-keys
+- is_ab: true
+- brand: google
+- branch: coral-user-12-SQ1A.220205.002-8010174-release-keys
+- repo: google_coral_dump
