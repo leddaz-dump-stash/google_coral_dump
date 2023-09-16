@@ -1,0 +1,14 @@
+# coral-user 10 QD1A.190821.007 5831595 release-keys
+- manufacturer: google
+- platform: msmnile
+- codename: coral
+- flavor: coral-user
+- release: 10
+- id: QD1A.190821.007
+- incremental: 5831595
+- tags: release-keys
+- fingerprint: google/coral/coral:10/QD1A.190821.007/5831595:user/release-keys
+- is_ab: true
+- brand: google
+- branch: coral-user-10-QD1A.190821.007-5831595-release-keys
+- repo: google_coral_dump
