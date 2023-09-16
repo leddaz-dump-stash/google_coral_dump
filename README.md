@@ -1,0 +1,14 @@
+# coral-user 12 SP2A.220305.012 8177914 release-keys
+- manufacturer: google
+- platform: msmnile
+- codename: coral
+- flavor: coral-user
+- release: 12
+- id: SP2A.220305.012
+- incremental: 8177914
+- tags: release-keys
+- fingerprint: google/coral/coral:12/SP2A.220305.012/8177914:user/release-keys
+- is_ab: true
+- brand: google
+- branch: coral-user-12-SP2A.220305.012-8177914-release-keys
+- repo: google_coral_dump
