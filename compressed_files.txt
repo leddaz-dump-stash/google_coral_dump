@@ -1,0 +1,4 @@
+system/system/apex/com.android.vndk.current.apex.xz
+product/app/GoogleCamera/GoogleCamera.apk.xz
+product/app/NgaResources/NgaResources.apk.xz
+product/priv-app/Velvet/Velvet.apk.xz

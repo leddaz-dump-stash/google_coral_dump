@@ -1,0 +1,94 @@
+//
+// Copyright (C) 2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init scripts
+sh_binary {
+    name: "init.insmod.sh",
+    src: "bin/init.insmod.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.radio.sh",
+    src: "bin/init.radio.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.ramoops.sh",
+    src: "bin/init.ramoops.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.sensors.sh",
+    src: "bin/init.sensors.sh",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.coral.rc",
+    src: "etc/init.coral.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.flame.rc",
+    src: "etc/init.flame.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sm8150.diag.rc",
+    src: "etc/init.sm8150.diag.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sm8150.logging.rc",
+    src: "etc/init.sm8150.logging.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sm8150.mpssrfs.rc",
+    src: "etc/init.sm8150.mpssrfs.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sm8150.power.rc",
+    src: "etc/init.sm8150.power.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sm8150.rc",
+    src: "etc/init.sm8150.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.sm8150.usb.rc",
+    src: "etc/init.sm8150.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+// fstab
+prebuilt_etc {
+    name: "fstab.firmware",
+    src: "etc/fstab.firmware",
+    vendor: true,
+}
