@@ -1,0 +1,19 @@
+[+] Kernel successfully decompressed in-memory (the offsets that follow will be given relative to the decompressed binary)
+[+] Kernel successfully decompressed in-memory (the offsets that follow will be given relative to the decompressed binary)
+[+] Version string: Linux version 4.14.170-g5513138224ab-ab6570431 (android-build@abfarm-east4-052) (Android (5484270 based on r353983c) clang version 9.0.3 (https://android.googlesource.com/toolchain/clang 745b335211bb9eadfa6aa6301f84715cee4b37c5) (https://android.googlesource.com/toolchain/llvm 60cf23e54e46c807513f7a36d0a7b777920b5881) (based on LLVM 9.0.3svn)) #1 SMP PREEMPT Tue Jun 9 02:18:01 UTC 2020
+[+] Guessed architecture: aarch64 successfully in 5.31 seconds
+[+] Found relocations table at file offset 0x2577ec0 (count=154559)
+[+] Found kernel text candidate: 0xffffff8008300000
+[+] Successfully applied 154559 relocations.
+[+] Found kallsyms_token_table at file offset 0x0210c000
+[+] Found kallsyms_token_index at file offset 0x0210c400
+[+] Found kallsyms_markers at file offset 0x0210ab00
+Traceback (most recent call last):
+  File "/workspace/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 1126, in <module>
+    kallsyms = KallsymsFinder(obtain_raw_kernel_from_file(kernel_bin.read()), args.bit_size)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 212, in __init__
+    self.find_kallsyms_num_syms()
+  File "/workspace/dumpyara/vmlinux-to-elf/vmlinux_to_elf/kallsyms_finder.py", line 799, in find_kallsyms_num_syms
+    raise ValueError('Could not find kallsyms_names')
+ValueError: Could not find kallsyms_names

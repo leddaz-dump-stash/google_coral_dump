@@ -1,0 +1,14 @@
+# coral-user 10 QQ3A.200805.001 6578210 release-keys
+- manufacturer: google
+- platform: msmnile
+- codename: coral
+- flavor: coral-user
+- release: 10
+- id: QQ3A.200805.001
+- incremental: 6578210
+- tags: release-keys
+- fingerprint: google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys
+- is_ab: true
+- brand: google
+- branch: coral-user-10-QQ3A.200805.001-6578210-release-keys
+- repo: google_coral_dump
