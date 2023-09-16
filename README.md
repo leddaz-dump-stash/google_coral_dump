@@ -1,0 +1,14 @@
+# coral-user 11 RP1A.200720.009 6720564 release-keys
+- manufacturer: google
+- platform: msmnile
+- codename: coral
+- flavor: coral-user
+- release: 11
+- id: RP1A.200720.009
+- incremental: 6720564
+- tags: release-keys
+- fingerprint: google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
+- is_ab: true
+- brand: google
+- branch: coral-user-11-RP1A.200720.009-6720564-release-keys
+- repo: google_coral_dump

@@ -1,0 +1,5 @@
+net.bt.name=Android
+ro.build.description=coral-user 11 RP1A.200720.009 6720564 release-keys
+ro.build.display.id=RP1A.200720.009
+ro.build.product=coral
+ro.wifi.channels=
