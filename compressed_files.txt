@@ -1,0 +1,6 @@
+product/app/Photos/Photos.apk.xz
+product/app/PrebuiltGmail/PrebuiltGmail.apk.xz
+product/app/GoogleCamera/GoogleCamera.apk.xz
+product/app/YouTube/YouTube.apk.xz
+product/priv-app/Velvet/Velvet.apk.xz
+product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk.xz

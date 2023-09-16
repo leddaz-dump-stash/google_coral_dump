@@ -1,0 +1,14 @@
+# coral-user 13 TP1A.220624.014 8819323 release-keys
+- manufacturer: google
+- platform: msmnile
+- codename: coral
+- flavor: coral-user
+- release: 13
+- id: TP1A.220624.014
+- incremental: 8819323
+- tags: release-keys
+- fingerprint: google/coral/coral:13/TP1A.220624.014/8819323:user/release-keys
+- is_ab: true
+- brand: google
+- branch: coral-user-13-TP1A.220624.014-8819323-release-keys
+- repo: google_coral_dump
