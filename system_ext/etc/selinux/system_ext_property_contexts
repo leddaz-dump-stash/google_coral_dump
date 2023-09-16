@@ -1,0 +1,5 @@
+#line 1 "device/google/coral-sepolicy/system_ext/private/property_contexts"
+# Oslo debug properties
+pixel.oslo.airplane_mode.allowed_override       u:object_r:pixel_oslo_debug_prop:s0
+pixel.oslo.allowed_override                     u:object_r:pixel_oslo_debug_prop:s0
+pixel.oslo.gating                               u:object_r:pixel_oslo_debug_prop:s0
